@@ -16,5 +16,6 @@ public class PolymorphicInferfaceDemo {
     private static void showPrice(RetailItem item){
         DecimalFormat dollar = new DecimalFormat("#,##.00");
         System.out.println("Price: $" + dollar.format(item.getRetailPrice()));
+        System.out.println();
     }
 }
